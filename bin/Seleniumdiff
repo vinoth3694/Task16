@@ -1,0 +1,21 @@
+Differences between Selenium IDE, Selenium WebDriver, Selenium Grid.
+
+Selenium IDE: 
+	Selenium IDE (Integrated Development Environment) is the major tool in the Selenium Suite.
+	Selenium IDE is implemented as a Firefox Add-On and as a Chrome Extension. 
+	It is the simplest framework in the Selenium Suite.
+	Selenium IDE allows for recording, editing and debugging of functional tests.
+
+Selenium WebDriver:
+	Selenium WebDriver is a browser automation framework that accepts commands and sends them to a browser. 
+	Selenium WebDriver, an interface to write instructions that work interchangeably across browsers.
+	It is implemented through a browser-specific driver. 
+	It controls the browser by directly communicating with it. 
+	Selenium WebDriver supports Java, C#, PHP, Python, Perl, Ruby.
+	
+Selenium Grid
+	Selenium Grid is a server that allows tests to use web browser instances running on remote machines. 
+	With Selenium Grid, one server acts as the central hub. Tests contact the hub to obtain access to browser instances. 
+	The hub has a list of servers that provide access to browser instances (WebDriver nodes), and lets tests use these instances. 
+	Selenium Grid allows running tests in parallel on multiple machines and to manage different browser versions and browser configurations centrally (instead of in each individual test).
+	

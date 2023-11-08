@@ -1,0 +1,13 @@
+Browser Driver used in Selenium.
+
+In Selenium, through WebDriver Interface, we can access different browsers. 
+Following are the various browsers we can access
+	ChromeDriver, 
+	ChromiumDriver, 
+	EdgeDriver, 
+	EventFiringWebDriver, 
+	FirefoxDriver, 
+	InternetExplorerDriver, 
+	RemoteWebDriver, 
+	SafariDriver
+	

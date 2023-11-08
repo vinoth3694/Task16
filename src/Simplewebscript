@@ -1,0 +1,33 @@
+What are the steps to create a simple WebDriver script in java
+
+   Set up development environment:
+
+	Install Java Development Kit (JDK) on Local system.
+	Install an Integrated Development Environment (IDE) such as Eclipse or IntelliJ IDEA.
+
+    Open your IDE and create a new Java project.
+
+   Configure WebDriver dependencies:
+	Add the WebDriver dependency to your project.
+	
+   Import the necessary WebDriver and Java packages in your Java class.
+		ex: import org.openqa.selenium.WebDriver;
+			import org.openqa.selenium.chrome.ChromeDriver;
+
+   Set up WebDriver:
+
+	Depending on the WebDriver implementation, need to set up the WebDriver instance.
+	
+   Write your WebDriver script:
+		//Cerating object to Webdriver interface and ChromeDriver Class
+		WebDriver d = new ChromeDriver();
+		
+		// launch the browser
+		d.get("https://www.google.co.in/");
+		
+		//Page will be idle for 2 seconds
+		Thread.sleep(2000);
+		
+		// Close the browser
+		d.quit();
+	

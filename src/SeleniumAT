@@ -1,0 +1,22 @@
+ What is Selenium? How it is useful in Automation Testing?
+
+Selenium is an open-source framework widely used for automating web browsers. 
+It provides a suite of tools and libraries that enable developers and testers to automate browser actions and simulate user interactions with web applications. 
+Selenium supports multiple programming languages, including Java, C#, Python, Ruby, and JavaScript, making it versatile and accessible to a broad range of users.
+
+Automation testing refers to the practice of using software tools and scripts to execute test cases and validate the functionality of an application automatically. 
+Selenium is particularly popular in the field of automation testing due to its various features and capabilities.
+
+Selenium Uses in Automation:
+
+	Selenium allows you to automate browser tasks, such as clicking buttons, filling out forms, navigating through pages, and extracting data. 
+	It can interact with elements on a web page just as a user would, enabling comprehensive testing of web applications.
+	
+	Since Selenium supports multiple web browsers, including Chrome, Firefox, Safari, Internet Explorer, and Edge, it enables cross-browser testing. 
+	Test scripts can be written once and executed on different browsers to ensure consistent behavior and identify browser-specific issues.
+	
+	Selenium integrates well with various testing frameworks, such as JUnit, TestNG, and PyTest, providing a structured approach to test development and execution.
+	
+	Selenium provides a wide range of methods for locating elements on a web page based on attributes like ID, class, name, XPath, CSS selectors, and more. 
+	
+	Selenium allows you to write test scripts in multiple programming languages, enabling teams to use their preferred language or choose the one that suits their project requirements. 
